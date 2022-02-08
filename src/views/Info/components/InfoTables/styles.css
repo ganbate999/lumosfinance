@@ -1,0 +1,26 @@
+.table{
+        width: 100%!important;
+        padding-top: 16px!important;
+        -webkit-flex-direction: column!important;
+        -ms-flex-direction: column!important;
+        flex-direction: column!important;
+        gap: 16px!important;
+        background-color: #27262c!important;
+        border-radius: 9px!important;
+        border: 1px solid #383241!important;
+        /* padding: 27px 30px!important; */
+        margin-bottom: 10px !important;
+        margin-top: 20px !important;
+        overflow: auto !important;
+}
+.flex{
+    margin-bottom: 10px !important;
+}
+
+.content{
+    padding: 0 8px !important;
+
+}
+.letters{
+    color:#21C797;
+}

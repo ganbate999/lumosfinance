@@ -1,0 +1,417 @@
+body{
+    /* background: rgb(1,0,22) !important; */
+    /* background: linear-gradient(39deg, rgba(1,0,22,1) 8%, rgba(25,25,112,1) 64%, rgba(95,68,186,0.9332107843137255) 78%, rgba(51,33,115,0.9500175070028011) 93%) !important; */
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #fff !important;
+}
+
+/*Balance*/
+.container_balance .Header{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 1rem !important;
+}
+.container_balance .Divisor{
+    border: 1px white solid ;
+    margin-bottom: 1.5rem !important;
+}
+.wrapper{
+    display: flex !important;
+}
+
+.Square{
+    background: rgb(28,29,29);
+    background: radial-gradient(circle, rgba(28,29,29,1) 41%, rgba(45,253,127,1) 90%);
+    border-radius: 10px;
+    border: 1px white solid;
+}
+.first_line{
+    display: flex;
+    justify-content: space-around;
+    gap:10rem;
+    padding: 2rem !important;
+
+}
+.mt-3{
+    margin-top: 3rem !important;
+}
+
+
+nav{
+    background-color: aquamarine !important;
+    display: none !important;
+}
+.grBWju{
+    background-color: aquamarine !important;
+    display: none !important;
+}
+.title{
+    display: block !important;
+    text-align: center !important;
+
+}
+.background-swap{
+    background: rgb(1,0,22) !important;
+    background: linear-gradient(39deg, rgba(1,0,22,1) 8%, rgba(25,25,112,1) 64%, rgba(95,68,186,0.9332107843137255) 78%, rgba(51,33,115,0.9500175070028011) 93%) !important;
+
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #fff !important;
+}
+:root{
+    --bg-white: rgba(255,255,255,0.1);
+    --br:1.4rem;
+    --border: solid 2px rgba(199, 194, 194, 0.74);
+    --shadow: 0 10px 20px 5px rgba(0,0,0,0.3);
+    --blanco: #fff;
+    --grisClaro: rgb(214, 210, 210);
+    --gradientGris: 
+    linear-gradient(160deg, rgba(165, 163, 175, 0.705) 8%, rgb(76 75 82 / 85%) 53%, rgb(33 33 36 / 86%) 81%);
+}
+.white{
+    color:#fff !important;
+}
+
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .w-30 { 
+        width: 30%!important;
+    }
+}
+
+.w-40 { 
+    width: 40%;
+}
+
+.w-50 { 
+    width: 50%;
+}
+
+.w-70 { 
+    width: 70%;
+}
+
+.w-80 { 
+    width: 80%;
+}
+
+.w-100 { 
+    width: 100%;
+}
+
+.container {
+    max-width: 1800px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+.transparent{
+    background: transparent !important;
+}
+
+.mt-0{
+    margin-top: 0px !important;
+}
+.mt-16{
+    margin-top: 16px !important;
+}
+.glass{
+    background-color: var(--bg-white) !important;
+
+    backdrop-filter: blur(20px) !important;
+    border: var(--border) !important;
+    border-radius: var(--br) !important;
+    box-shadow: var(--shadow) !important;
+    overflow: hidden !important;
+}
+
+/* .about__container,.card__container
+{
+    flex-wrap: wrap;
+} */
+/* NO BORDERS*/
+
+.border_none{
+    border: none !important;
+}
+
+
+.align-items-center{
+    align-items: center !important;
+}
+
+
+@media (min-width: 768px) {
+    .d-flex {
+        display: flex !important;
+    }
+    .about__container{
+        flex-basis: 60%;
+    }
+    
+    .card__container {
+        flex-basis: 40%;
+    }
+}
+
+
+.text__grande {
+    font-size: 6.5rem;
+    color: var(--blanco);
+}
+
+.parrafo {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--grisClaro);
+}
+/* Boton Liquidity */
+.poolbtn{
+    width: 100% !important;
+    backdrop-filter: blur(20px) !important;
+    padding: 10px !important;
+}
+
+.poolbtn{
+    background: var(--gradientGris) !important;
+    border: var(--border) !important;
+    font-weight: bold !important;
+    /* font-size: 1.8rem; */
+    color: white !important;
+    padding: 15px 20px !important;
+    border-radius: var(--br) !important;
+}
+
+.poolbtn:hover{
+    background-color: rgb(27, 18, 82) !important;
+    box-shadow: 0 5px 10px 2px rgba(105, 103, 109, 0.5) !important;
+    cursor: pointer !important;
+}
+/** boton */
+
+.boton {
+    margin-top: 5rem;
+}
+
+.boton button{
+    width: 100%;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+}
+
+.boton button{
+    background: var(--gradientGris);
+    border: var(--border);
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: white;
+    padding: 15px 20px;
+    border-radius: var(--br);
+}
+
+.boton button:hover{
+    background-color: rgb(27, 18, 82);
+    box-shadow: 0 5px 10px 2px rgba(105, 103, 109, 0.5);
+    cursor: pointer;
+}
+/* Boton Swap con clase directa */
+.button-swap{
+    width: 100% !important;
+    backdrop-filter: blur(20px) !important;
+    padding: 10px !important;
+}
+
+.button-swap{
+    background: var(--gradientGris) !important;
+    border: var(--border) !important;
+    font-weight: bold !important;
+    /* font-size: 1.8rem !important; */
+    color: white !important;
+    padding: 15px 20px !important;
+    border-radius: var(--br) !important;
+}
+
+.button-swap:hover{
+    background-color: rgb(27, 18, 82) !important;
+    box-shadow: 0 5px 10px 2px rgba(105, 103, 109, 0.5) !important;
+    cursor: pointer !important;
+}
+
+
+
+/* Boton de Maximo en el Swap */
+.boton-max {
+    margin-top: 0rem;
+}
+
+.boton-max button{
+    /* width: 100%; */
+    backdrop-filter: blur(20px);
+    padding: 10px;
+}
+
+.boton-max button{
+    background: var(--gradientGris);
+    border: var(--border);
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: white;
+    /* padding: 15px 20px; */
+    border-radius: var(--br);
+}
+
+.boton-max button:hover{
+    background-color: rgb(27, 18, 82);
+    box-shadow: 0 5px 10px 2px rgba(105, 103, 109, 0.5);
+    cursor: pointer;
+}
+/* End boton **/
+
+/** estrellas */
+
+.about__estrellas {
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.about__estrellas p {
+    font-size: 1.2rem;
+}
+
+.about__estrellas span {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+
+/** =========== Cards - Right  =========== */
+
+.card__1 {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.card__2 {
+    margin-top: -7rem;
+}
+
+.m__card {
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    /* background-image: url(./img/gradient.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__card {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+}
+
+.sonido__card {
+    padding: 1rem 1.5rem;
+    margin-top: 10rem;
+    font-size: 2.5rem;
+    color: #9b9999;
+}
+
+.footer__card {
+    padding: 1rem 1.5rem;
+    background: rgb(209,207,219);
+    background: linear-gradient(304deg, rgba(209,207,219,1) 16%, rgba(210,198,198,0.7203256302521008) 57%, rgba(73,72,79,0.969625350140056) 80%, rgba(76,75,82,0.9780287114845938) 85%);
+}
+
+.tarjeta {
+    font-size: 3rem;
+}
+
+/** Inputs */
+
+.formulario__container {
+    border-bottom: 1px solid #ccc !important;
+    padding: 2rem ;
+    /* padding-top: 10rem; */
+    background: linear-gradient(
+        160deg
+        , rgb(91 90 95 / 71%) 8%, rgb(65 64 69 / 85%) 53%, rgb(33 33 36 / 86%) 81%) !important;
+}
+
+.flex__input {
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.flex__input:last-of-type {
+    margin-bottom: 0;
+}
+
+.clear-fix:after {
+    width: 100%;
+    content: " ";
+    height: 2px;
+    display: block;
+    background: radial-gradient(43% 275200% at 50% 50%, rgba(255, 255, 255, 0.705) 0, rgba(252, 40, 76, 0) 100%);
+}
+
+
+.input__text {
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: calc(70% - 1rem);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.input__text .text {
+    font-size: 1.8rem;
+}
+
+.input__text .number {
+    font-size: 2.1rem;
+}
+
+.input__select {
+    flex-basis: calc(30% - 1rem);
+}
+
+.formulario__campo {
+    border: 1rem solid var(--gradientGris);
+     background: rgba(204, 204, 204, 0.164);
+
+    color: var(--blanco);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem; 
+    appearance: none;
+    outline: none;
+    width: 100%;
+}
+
+.formulario__campo option {
+    color: #9b9999;
+}
+
+.formulario__campo:hover  {
+    cursor: pointer;
+    box-shadow: var(--shadow);
+}
+
+/* .input__select:hover .select {
+    
+} */

@@ -1,0 +1,35 @@
+
+
+/* .text{
+    /* margin-left: 20px!important; */
+
+.amount{
+    margin-left: 10px !important;
+}
+.btns{
+    margin-bottom: 10px !important;
+    margin-left: 10px !important;
+    background-color: #21C797;
+    color: white;
+    border: 0;
+}
+.glass2{
+    background-color: var(--bg-white) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+    border: var(--border) !important;
+    border-radius: var(--br) !important;
+    box-shadow: var(--shadow) !important;
+    overflow: hidden !important;
+    margin-bottom: 10px !important;
+}
+.conteiner{
+    background-color: #333f37;
+}
+.togle{
+    color: grey;
+    background-color: rgb(53, 46, 54);
+}
+.togle2{
+    background-color: #868887;
+}

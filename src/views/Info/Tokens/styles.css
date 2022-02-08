@@ -1,0 +1,20 @@
+.title{
+    margin-bottom: 10px !important;
+    text-align: justify !important;
+}
+.text{
+    padding: 20px !important;
+    margin-left: 10px !important;
+}
+.subtitle{
+margin-bottom: 20px !important;
+}
+.tetx2{
+    margin-top: 10px!important;
+}
+.btn{
+    background-color: #21C797;
+    margin-right: 15px!important;
+    color: #fff !important;
+    border: none;
+}

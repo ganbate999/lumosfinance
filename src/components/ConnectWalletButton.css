@@ -1,0 +1,9 @@
+.button_connect{
+    background: rgba(228, 220, 228, 0.788) !important;
+    background: linear-gradient(90deg, #606166 0%, #525459 50%, #484A4F 100%) !important;
+    border-radius: 5px !important;
+    border-color: white !important;
+    border-width:  thin !important;
+    border-style: solid !important;
+    color: white !important;
+}

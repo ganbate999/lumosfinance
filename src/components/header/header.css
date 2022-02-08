@@ -1,0 +1,47 @@
+header{
+    background-color: transparent;
+    height: 50px;
+    margin-bottom: 5.5rem !important;
+
+}
+header::after{
+    width: 100%;
+    content: " ";
+    height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(43% 275200% at 50% 50%, rgba(255, 255, 255, 0.705) 0, rgba(252, 40, 76, 0) 100%);
+}
+.botones__header{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0 5rem; */
+    font-size: 25px;
+    padding-bottom: 20px ;
+}
+.botones__header .boton__header button{
+    font-family: 'Kanit',sans-serif;
+    margin-top: 0px !important;
+    padding-bottom: 20px;
+}
+.content__header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    align-items: center;
+
+}
+.botones{
+    display: flex;
+    gap :10rem;
+}
+.boton-head{
+    margin-top: 0px !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.text__header{
+    display: flex;
+}
